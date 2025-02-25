@@ -1,78 +1,152 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
   <title>CSS Crusher - Home</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* Apply a red background to the entire page */
-    body {
-      background-color: red;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
 
-    /* Add a yellow border around the website content */
-    .container {
-      background-color: red;
-      border: 10px solid yellow;
-      width: 90%;
-      max-width: 1200px;
-      padding: 20px;
-      box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
-    }
+/* Apply a subtle background color *
+.body-class {
+  background-color: #b30000; /* Slightly darker red for subtle contrast */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
 
-    /* Style the header */
-    .header-class {
-      text-align: center;
-      color: yellow;
-    }
+/* Container styling */
+.container {
+  background-color: red;
+  border: 10px solid yellow;
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
 
-    /* Style the navigation links */
-    .nav-class a {
-      color: yellow;
-      text-decoration: none;
-      font-weight: bold;
-    }
+/* Header styling */
+.header-class {
+  background-color: black; /* High contrast for readability */
+  color: yellow;
+  padding: 15px;
+  text-align: center;
+}
 
-    .nav-class a:hover {
-      text-decoration: underline;
-    }
+/* Navigation bar styling */
+.nav-class {
+  background-color: darkred; /* Different from body for contrast */
+  padding: 10px;
+  text-align: center;
+}
 
-    /* Style section titles */
-    .section-title-class {
-      color: yellow;
-      text-align: center;
-    }
+.nav-class a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  display: inline-block;
+}
 
-    /* Style text elements */
-    .text-class {
-      color: white;
-      font-size: 18px;
-    }
+.nav-class a:hover {
+  text-decoration: underline;
+}
 
-    /* Style buttons */
-    .button-class {
-      background-color: yellow;
-      color: red;
-      border: none;
-      padding: 10px 15px;
-      font-size: 16px;
-      cursor: pointer;
-    }
+.nav-class a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-    .button-class:hover {
-      background-color: white;
-      color: red;
-    }
+/* Title and section headings */
+.title-class {
+  color: white;
+  font-size: 2.5rem;
+}
 
-    /* Style the footer */
-    .footer-class {
-      text-align: center;
-      color: yellow;
-      padding: 10px;
-    }
+.section-title-class {
+  color: yellow;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* Text styling */
+.text-class {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Image styling */
+.image-class {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid yellow;
+  border-radius: 10px;
+}
+
+/* Form styling */
+.form-class {
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  color: yellow;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.input-class {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.button-class {
+  background-color: yellow;
+  color: red;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.button-class:hover {
+  background-color: white;
+  color: red;
+}
+
+/* Footer styling */
+.footer-class {
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .nav-class a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .button-class {
+    width: 100%;
+  }
+
   </style>
 </head>
 <body class="body-class">
